@@ -1,0 +1,68 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333 !important;
+  }
+  
+  /* Menu mobile */
+  #navbar-collapse {
+    background-color: #e7e7e7;
+    border-top: 1px solid #ddd;
+  }
+  
+  #navbar-collapse a {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Titre principal */
+  .page-title {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Section obligatoire (défilement) */
+  .tall-section {
+    background-color: #ffdddd; /* Rouge clair */
+    min-height: 1000px;
+    padding: 20px;
+    border: 1px solid #ff9999;
+  }
+  
+  /* Sections optionnelles */
+  .optional-section {
+    margin-top: 30px;
+  }
+  
+  .section-content {
+    background-color: #ddffdd; /* Vert clair */
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 700px;
+    border: 1px solid #99cc99;
+  }
+  
+  .section-content h3 {
+    color: #333;
+  }
+  
+  /* Liens "Back to Top" */
+  .back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #337ab7;
+  }
